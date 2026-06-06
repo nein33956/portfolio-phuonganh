@@ -61,7 +61,15 @@ export const projects: Project[] = [
     ],
     tools: ["Windows", "File Explorer"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "Bài 1 - Phạm Thị Phương Anh",
+      submittedAt: "08/03/2026 15:48",
+      status: "Đã nộp",
+      fileUrl: "",
+    },
+    viewUrl: "https://docs.google.com/document/d/1-DP6uloxP5C_nbpfLs6IzeSkQdnQvtTP/edit",
+    requirementImg: "/img/bai1-yeucau.jpg",
+    proofImgs: ["/img/bai1-mc1.jpg"],
     aiNote:
       "Bài tập thực hành thao tác trực tiếp trên hệ điều hành Windows, không sử dụng công cụ AI. Toàn bộ ảnh minh hoạ trong bài nộp do chính tôi chụp màn hình trong quá trình thực hiện.",
     lesson:
@@ -87,7 +95,15 @@ export const projects: Project[] = [
     ],
     tools: ["Google Scholar", "Microsoft Academic", "Định dạng Harvard"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "bai-tap-2-tim-kiem-va-danh-gia-thong-tin-hoc-thuat.docx",
+      submittedAt: "21/03/2026 16:03",
+      status: "Đã nộp",
+      fileUrl: "",
+    },
+    viewUrl: "https://docs.google.com/document/d/1NHPq5bbkqfkVqGHa9XhXkZHRqtko8LGd/edit",
+    requirementImg: "/img/bai2-yeucau.jpg",
+    proofImgs: ["/img/bai2-mc1.jpg"],
     aiNote:
       "Toàn bộ tài liệu tham khảo được trích dẫn theo định dạng Harvard. Việc đánh giá và xếp hạng độ tin cậy của từng nguồn do tôi tự thực hiện dựa trên các tiêu chí học thuật.",
     lesson:
@@ -113,7 +129,15 @@ export const projects: Project[] = [
     ],
     tools: ["ChatGPT", "Prompt Engineering", "Few-shot / Chain-of-thought"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "viet-prompt-hieu-qua-cho-cac-tac-vu-hoc-tap.docx",
+      submittedAt: "17/04/2026 23:10",
+      status: "Đã nộp",
+      fileUrl: "",
+    },
+    viewUrl: "https://docs.google.com/document/d/1JiUMdO-WPzTZC2S1l6OrmM-OCEutqV3-/edit",
+    requirementImg: "/img/bai3-yeucau.jpg",
+    proofImgs: ["/img/bai3-mc1.jpg"],
     aiNote:
       "Bài tập có sử dụng công cụ AI (ChatGPT) để thử nghiệm và so sánh các phiên bản prompt. Toàn bộ prompt, kết quả AI và phần phân tích đều được trình bày minh bạch trong báo cáo.",
     lesson:
@@ -138,7 +162,15 @@ export const projects: Project[] = [
     ],
     tools: ["Trello", "Google Docs", "Google Drive", "Microsoft Teams"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "Bài tập 3 W4.docx",
+      submittedAt: "06/06/2026 13:39",
+      status: "Đã nộp",
+      fileUrl: "",
+    },
+    viewUrl: "https://docs.google.com/document/d/12H-YGgdeCqsi5P-VieIsSvwvQWcJ2aDz/edit",
+    requirementImg: "/img/bai4-yeucau.jpg",
+    proofImgs: ["/img/bai4-mc1.jpg"],
     aiNote:
       "Báo cáo phản ánh trải nghiệm hợp tác thực tế của cá nhân; minh chứng (ảnh chụp màn hình) thể hiện rõ tài khoản và phần đóng góp của tôi trong dự án nhóm.",
     lesson:
@@ -164,7 +196,15 @@ export const projects: Project[] = [
     ],
     tools: ["ChatGPT", "DALL·E", "Canva AI", "Adobe Firefly"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "Bài tập 5 - Phạm Thị Phương Anh",
+      submittedAt: "12/05/2026 20:12",
+      status: "Đã nộp",
+      fileUrl: "",
+    },
+    viewUrl: "https://docs.google.com/document/d/1A_qzsi8L6uelXsKULeEDVgN9_hCpkK1z/edit",
+    requirementImg: "/img/bai5-yeucau.jpg",
+    proofImgs: ["/img/bai5-mc1.jpg"],
     aiNote:
       "Bài tập sử dụng nhiều công cụ AI tạo sinh (văn bản, hình ảnh, thiết kế). Toàn bộ prompt, đầu ra AI và phần chỉnh sửa/đóng góp cá nhân đều được ghi lại minh bạch; bài có phần phân tích riêng về các vấn đề đạo đức khi sử dụng AI.",
     lesson:
@@ -190,7 +230,15 @@ export const projects: Project[] = [
     ],
     tools: ["ChatGPT", "Canva (infographic)", "Trích dẫn học thuật"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "BÀI TẬP 4 W6.docx",
+      submittedAt: "06/06/2026 14:55",
+      status: "Đã nộp",
+      fileUrl: "",
+    },
+    viewUrl: "https://docs.google.com/document/d/15KUCR-11SSLs7EjGPRVC5IDgVQZvWjQq/edit",
+    requirementImg: "/img/bai6-yeucau.jpg",
+    proofImgs: ["/img/bai6-mc1.jpg"],
     aiNote:
       "Bài tập trực tiếp về sử dụng AI có trách nhiệm: mọi prompt và đầu ra AI đều được ghi lại và trích dẫn minh bạch. Bài có bộ nguyên tắc cá nhân và phân tích ranh giới giữa hỗ trợ hợp lý và gian lận học thuật.",
     lesson:
