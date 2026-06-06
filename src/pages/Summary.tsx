@@ -166,7 +166,7 @@ function Head({ no, title, sub }: { no: string; title: string; sub?: string }) {
   return (
     <div className="mb-8">
       <div className="flex items-baseline gap-3">
-        <span className="font-display text-2xl font-semibold italic text-brand-400">{no}</span>
+        <span className="font-display text-2xl font-semibold italic text-brand-600">{no}</span>
         <h2 className="font-display text-4xl font-semibold text-ink">{title}</h2>
       </div>
       {sub && <p className="kicker mt-1">{sub}</p>}

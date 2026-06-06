@@ -28,7 +28,7 @@
     @apply mx-auto w-full max-w-5xl px-5 sm:px-8;
   }
   .gradient-text {
-    @apply bg-gradient-to-r from-forest-800 via-brand-700 to-brand-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-brand-800 to-brand-600 bg-clip-text text-transparent;
     font-style: italic;
   }
   .glass {
@@ -36,7 +36,7 @@
   }
   /* nhãn nhỏ in hoa giãn chữ */
   .kicker {
-    @apply text-[11px] font-semibold uppercase tracking-luxe text-brand-600;
+    @apply text-[11px] font-semibold uppercase tracking-luxe text-brand-700;
   }
   .chip {
     @apply inline-flex items-center gap-2 rounded-full border border-brand-300/70 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-700;
@@ -68,5 +68,5 @@
 /* đường kẻ vàng mảnh */
 .rule {
   height: 1px;
-  background: linear-gradient(to right, transparent, #bb8f3e, transparent);
+  background: linear-gradient(to right, transparent, #40916c, transparent);
 }

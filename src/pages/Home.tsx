@@ -198,7 +198,7 @@ export default function Home() {
                       <span className="grid h-12 w-12 place-items-center rounded-full border border-brand-300 text-brand-600 transition-colors group-hover:border-forest-700 group-hover:text-forest-700">
                         <Icon className="h-5 w-5" />
                       </span>
-                      <span className="font-display text-4xl font-semibold italic leading-none text-brand-200 transition-colors group-hover:text-brand-400">
+                      <span className="font-display text-4xl font-semibold italic leading-none text-brand-400 transition-colors group-hover:text-brand-600">
                         {String(p.id).padStart(2, "0")}
                       </span>
                     </div>

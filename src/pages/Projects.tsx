@@ -40,7 +40,7 @@ export default function Projects() {
                   >
                     {/* khung tranh: viền trong */}
                     <div className="relative flex h-full flex-col overflow-hidden border border-brand-100 p-8">
-                      <span className="pointer-events-none absolute -right-2 -top-5 font-display text-[7rem] font-semibold italic leading-none text-brand-100 transition-colors group-hover:text-brand-200">
+                      <span className="pointer-events-none absolute -right-2 -top-5 font-display text-[7rem] font-semibold italic leading-none text-brand-200 transition-colors group-hover:text-brand-300">
                         {String(p.id).padStart(2, "0")}
                       </span>
                       <div className="relative flex items-center justify-between">
