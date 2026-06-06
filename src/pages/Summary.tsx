@@ -34,7 +34,7 @@ export default function Summary() {
               Nhìn lại <span className="gradient-text">hành trình</span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-ink-soft">
-              Trải nghiệm, kiến thức và những điều đọng lại sau sáu dự án năng lực số.
+              Trải nghiệm, kiến thức và những điều đọng lại sau sáu dự án AI và công nghệ số.
             </p>
             <div className="rule mx-auto mt-6 w-24" />
           </Reveal>
@@ -50,7 +50,7 @@ export default function Summary() {
             </Reveal>
             <Reveal>
               <p className="text-lg leading-relaxed text-ink-soft first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:font-display first-letter:text-7xl first-letter:font-semibold first-letter:italic first-letter:leading-[0.8] first-letter:text-brand-600">
-                Khi bắt đầu môn học, tôi từng nghĩ “năng lực số” chỉ là biết dùng máy tính. Nhưng đi
+                Khi bắt đầu môn học, tôi từng nghĩ “AI và công nghệ số” chỉ là biết dùng máy tính. Nhưng đi
                 hết sáu dự án, tôi nhận ra đó là cả một phong cách làm việc trong môi trường số — tỉ
                 mỉ, có hệ thống và có trách nhiệm.
               </p>
@@ -143,7 +143,7 @@ export default function Summary() {
               <Reveal>
                 <p className="mt-6 border-l-2 border-brand-400 pl-5 text-sm leading-relaxed text-ink-soft">
                   <b className="text-ink">Định hướng tiếp theo:</b> tôi sẽ tiếp tục rèn kỹ năng đánh
-                  giá nguồn và sáng tạo nội dung số, đồng thời ứng dụng năng lực số vào việc học ngành
+                  giá nguồn và sáng tạo nội dung số, đồng thời ứng dụng AI và công nghệ số vào việc học ngành
                   Y Khoa — tra cứu tài liệu, phác đồ điều trị và hỗ trợ nghiên cứu một cách hiệu quả,
                   có trách nhiệm.
                 </p>

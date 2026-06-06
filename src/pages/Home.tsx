@@ -17,7 +17,7 @@ const goals = [
   {
     icon: Target,
     title: "Mục tiêu học tập",
-    body: "Nắm vững năng lực số nền tảng phục vụ học tập & nghiên cứu y khoa: quản lý tài liệu khoa học, tra cứu thông tin đáng tin cậy, sử dụng AI hiệu quả và có đạo đức.",
+    body: "Nắm vững AI và công nghệ số nền tảng phục vụ học tập & nghiên cứu y khoa: quản lý tài liệu khoa học, tra cứu thông tin đáng tin cậy, sử dụng AI hiệu quả và có đạo đức.",
   },
   {
     icon: Rocket,
@@ -29,7 +29,7 @@ const goals = [
 const portfolioGoals = [
   "Thể hiện các kỹ năng số đã học qua 6 dự án thực hành cụ thể.",
   "Lưu trữ sản phẩm cá nhân có hệ thống, dễ truy cập & chia sẻ.",
-  "Ghi lại quá trình tự học và sự tiến bộ về năng lực số.",
+  "Ghi lại quá trình tự học và sự tiến bộ về AI và công nghệ số.",
   "Phản ánh tư duy học thuật: minh bạch nguồn, dùng AI có trách nhiệm.",
 ];
 
@@ -47,7 +47,7 @@ export default function Home() {
             className="flex items-center justify-center gap-4"
           >
             <span className="hidden h-px w-12 bg-brand-300 sm:block" />
-            <span className="kicker">Portfolio cá nhân · Môn Năng lực số</span>
+            <span className="kicker">Portfolio cá nhân · Môn AI và Công nghệ số</span>
             <span className="hidden h-px w-12 bg-brand-300 sm:block" />
           </motion.div>
 
@@ -67,7 +67,7 @@ export default function Home() {
             className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-soft"
           >
             Sinh viên <span className="font-semibold text-ink">{SITE.major}</span>, yêu cái đẹp và
-            sự chỉn chu. Đây là nơi tôi lưu giữ hành trình làm chủ <span className="gradient-text">năng lực số</span> —
+            sự chỉn chu. Đây là nơi tôi lưu giữ hành trình làm chủ <span className="gradient-text">AI và công nghệ số</span> —
             từ tổ chức dữ liệu, khai thác thông tin học thuật đến ứng dụng AI một cách tinh tế và có
             trách nhiệm.
           </motion.p>
@@ -129,7 +129,7 @@ export default function Home() {
               </h2>
               <p className="mt-5 leading-relaxed text-ink-soft">
                 Tôi là {SITE.fullName}, sinh viên {SITE.major}. Là người tỉ mỉ và yêu nghệ thuật,
-                với tôi môn Năng lực số là dịp để rèn một phong cách làm việc số chỉn chu: gọn gàng,
+                với tôi môn AI và Công nghệ số là dịp để rèn một phong cách làm việc số chỉn chu: gọn gàng,
                 chính xác và có trách nhiệm.
               </p>
               <div className="mt-8 grid gap-5 sm:grid-cols-2">
@@ -159,7 +159,7 @@ export default function Home() {
               </h2>
               <p className="mt-5 text-ink-soft">
                 Đây là nơi tôi tổng hợp, hệ thống hóa kết quả học tập và thể hiện sự trưởng thành về
-                năng lực số trong suốt môn học.
+                AI và công nghệ số trong suốt môn học.
               </p>
             </div>
             <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2">

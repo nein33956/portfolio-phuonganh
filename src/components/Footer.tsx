@@ -14,9 +14,9 @@ export default function Footer() {
         <span className="mx-auto grid h-11 w-11 place-items-center rounded-full border border-brand-400 font-display text-xl font-semibold italic text-brand-700">
           P
         </span>
-        <h3 className="mt-4 font-display text-2xl font-semibold text-ink">Portfolio Năng lực số</h3>
+        <h3 className="mt-4 font-display text-2xl font-semibold text-ink">Portfolio AI và Công nghệ số</h3>
         <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-ink-muted">
-          Hành trình rèn luyện năng lực số của sinh viên ngành Y Khoa — tuyển tập 6 dự án thực hành,
+          Hành trình rèn luyện AI và công nghệ số của sinh viên ngành Y Khoa — tuyển tập 6 dự án thực hành,
           hướng tới sử dụng công nghệ &amp; AI một cách hiệu quả và có trách nhiệm.
         </p>
 
