@@ -10,7 +10,7 @@ export default function Aurora() {
           top: -120,
           left: -80,
           background:
-            "radial-gradient(circle at 30% 30%, #95d5b2, transparent 70%)",
+            "radial-gradient(circle at 30% 30%, #e89b88, transparent 70%)",
         }}
       />
       <div
@@ -22,7 +22,7 @@ export default function Aurora() {
           right: -100,
           animationDelay: "1.5s",
           background:
-            "radial-gradient(circle at 70% 30%, #40916c, transparent 70%)",
+            "radial-gradient(circle at 70% 30%, #c24a34, transparent 70%)",
         }}
       />
       <div
@@ -34,7 +34,7 @@ export default function Aurora() {
           left: "40%",
           animationDelay: "3s",
           background:
-            "radial-gradient(circle at 50% 50%, #d8f3dc, transparent 70%)",
+            "radial-gradient(circle at 50% 50%, #f9e3dc, transparent 70%)",
         }}
       />
     </div>

@@ -44,10 +44,10 @@ export default function Projects() {
                         {String(p.id).padStart(2, "0")}
                       </span>
                       <div className="relative flex items-center justify-between">
-                        <span className="grid h-12 w-12 place-items-center rounded-full border border-brand-300 text-brand-600 transition-colors group-hover:border-forest-700 group-hover:text-forest-700">
+                        <span className="grid h-12 w-12 place-items-center rounded-full border border-brand-300 text-brand-600 transition-colors group-hover:border-brand-700 group-hover:text-brand-700">
                           <Icon className="h-5 w-5" />
                         </span>
-                        <ArrowUpRight className="h-5 w-5 text-brand-300 transition-all group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-forest-700" />
+                        <ArrowUpRight className="h-5 w-5 text-brand-300 transition-all group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-brand-700" />
                       </div>
                       <span className="relative mt-6 text-[10px] uppercase tracking-[0.2em] text-brand-600">
                         {p.task}

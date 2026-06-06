@@ -101,15 +101,15 @@ export default function Summary() {
                   </div>
                 </Reveal>
                 <Reveal delay={0.1}>
-                  <div className="h-full border border-forest-700/40 bg-forest-50/60 p-6 shadow-soft">
-                    <h3 className="font-display text-xl font-semibold italic text-forest-800">
+                  <div className="h-full border border-brand-700/40 bg-brand-50/60 p-6 shadow-soft">
+                    <h3 className="font-display text-xl font-semibold italic text-brand-800">
                       Thách thức đã vượt qua
                     </h3>
-                    <div className="mt-3 h-px w-12 bg-forest-700/50" />
+                    <div className="mt-3 h-px w-12 bg-brand-700/50" />
                     <ul className="mt-4 space-y-3 text-sm text-ink-soft">
                       {thachThuc.map((t, i) => (
                         <li key={i} className="flex gap-3">
-                          <span className="text-forest-600">◆</span>
+                          <span className="text-brand-600">◆</span>
                           <span>{t}</span>
                         </li>
                       ))}

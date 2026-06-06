@@ -4,53 +4,41 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // Atelier: serif thanh lịch + sans tinh tế
         sans: ['"Jost"', '"Segoe UI"', "system-ui", "sans-serif"],
         display: ['"Cormorant Garamond"', "Georgia", "serif"],
       },
       colors: {
-        // brand = XANH Eco-Tech: emerald #40916C, xanh lá đậm #1B4332
+        // brand = đỏ burgundy ấm
         brand: {
-          50: "#f1faf4",
-          100: "#d8f3dc",
-          200: "#b7e4c7",
-          300: "#95d5b2",
-          400: "#74c69d",
-          500: "#52b788",
-          600: "#40916c",
-          700: "#2d6a4f",
-          800: "#1b4332",
-          900: "#122d22",
-          950: "#081c15",
-        },
-        // forest = xanh lá đậm (khối tối)
-        forest: {
-          50: "#d8f3dc",
-          100: "#b7e4c7",
-          200: "#95d5b2",
-          400: "#52b788",
-          500: "#40916c",
-          600: "#2d6a4f",
-          700: "#1f5640",
-          800: "#1b4332",
-          900: "#122d22",
-          950: "#081c15",
+          50:  "#fdf4f2",
+          100: "#f9e3dc",
+          200: "#f2c4b6",
+          300: "#e89b88",
+          400: "#d96e58",
+          500: "#c24a34",
+          600: "#9e3224",
+          700: "#7f221b",
+          800: "#621916",
+          900: "#4a1311",
+          950: "#30090a",
         },
         ink: {
-          DEFAULT: "#16231c",
-          soft: "#3c4d43",
-          muted: "#6f8077",
+          DEFAULT: "#2c1a17",
+          soft:    "#5a3d38",
+          muted:   "#957068",
         },
-        ivory: "#ffffff",
+        beige: "#f2e8dd",
+        ivory: "#faf6f1",
         paper: "#ffffff",
       },
       boxShadow: {
-        glow: "0 18px 50px -22px rgba(27,67,50,0.35)",
-        card: "0 16px 44px -24px rgba(18,45,34,0.28)",
-        soft: "0 8px 26px -16px rgba(18,45,34,0.20)",
+        glow: "0 18px 50px -22px rgba(158,50,36,0.30)",
+        card: "0 16px 44px -24px rgba(98,25,22,0.22)",
+        soft: "0 8px 26px -16px rgba(98,25,22,0.16)",
       },
       letterSpacing: {
         luxe: "0.28em",
+        airy: "0.18em",
       },
       keyframes: {
         floaty: {

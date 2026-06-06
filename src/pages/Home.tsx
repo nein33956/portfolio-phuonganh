@@ -135,7 +135,7 @@ export default function Home() {
               <div className="mt-8 grid gap-5 sm:grid-cols-2">
                 {goals.map((g, i) => (
                   <div key={g.title} className="border border-brand-200 bg-white p-6 shadow-soft">
-                    <span className="font-display text-3xl font-semibold italic text-forest-700">
+                    <span className="font-display text-3xl font-semibold italic text-brand-700">
                       0{i + 1}
                     </span>
                     <h3 className="mt-2 font-display text-xl font-semibold text-ink">{g.title}</h3>
@@ -193,9 +193,9 @@ export default function Home() {
                     to={`/du-an/${p.slug}`}
                     className="group relative flex h-full flex-col border border-brand-200 bg-white p-7 transition-all hover:-translate-y-1 hover:border-brand-400 hover:shadow-card"
                   >
-                    <span className="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 bg-gradient-to-r from-forest-700 to-brand-500 transition-transform duration-300 group-hover:scale-x-100" />
+                    <span className="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 bg-gradient-to-r from-brand-700 to-brand-500 transition-transform duration-300 group-hover:scale-x-100" />
                     <div className="flex items-start justify-between">
-                      <span className="grid h-12 w-12 place-items-center rounded-full border border-brand-300 text-brand-600 transition-colors group-hover:border-forest-700 group-hover:text-forest-700">
+                      <span className="grid h-12 w-12 place-items-center rounded-full border border-brand-300 text-brand-600 transition-colors group-hover:border-brand-700 group-hover:text-brand-700">
                         <Icon className="h-5 w-5" />
                       </span>
                       <span className="font-display text-4xl font-semibold italic leading-none text-brand-400 transition-colors group-hover:text-brand-600">
@@ -207,7 +207,7 @@ export default function Home() {
                     </span>
                     <h3 className="mt-1 font-display text-2xl font-semibold text-ink">{p.title}</h3>
                     <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-soft">{p.short}</p>
-                    <span className="mt-5 inline-flex w-fit items-center gap-1.5 border-b border-brand-300 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-700 transition-all group-hover:gap-2.5 group-hover:border-forest-700 group-hover:text-forest-700">
+                    <span className="mt-5 inline-flex w-fit items-center gap-1.5 border-b border-brand-300 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-700 transition-all group-hover:gap-2.5 group-hover:border-brand-700 group-hover:text-brand-700">
                       Xem chi tiết <ArrowUpRight className="h-3.5 w-3.5" />
                     </span>
                   </Link>
@@ -225,7 +225,7 @@ export default function Home() {
       <section className="py-16">
         <div className="container-x">
           <Reveal>
-            <figure className="mx-auto max-w-3xl rounded-2xl bg-forest-900 px-8 py-12 text-center shadow-card sm:px-12">
+            <figure className="mx-auto max-w-3xl rounded-2xl bg-brand-800 px-8 py-12 text-center shadow-card sm:px-12">
               <span className="text-[11px] font-semibold uppercase tracking-luxe text-brand-300">
                 Cam kết liêm chính học thuật
               </span>
