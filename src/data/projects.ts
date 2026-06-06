@@ -127,7 +127,7 @@ export const projects: Project[] = [
       "Tổng hợp các nguyên tắc & mẹo viết prompt hiệu quả dựa trên kết quả thử nghiệm.",
       "Viết báo cáo 3-4 trang kèm bảng so sánh prompt và ảnh chụp màn hình các bước.",
     ],
-    tools: ["ChatGPT", "Prompt Engineering", "Few-shot / Chain-of-thought"],
+    tools: ["Gemini", "Prompt Engineering", "Few-shot / Chain-of-thought"],
     lmsUrl: "",
     submission: {
       fileName: "viet-prompt-hieu-qua-cho-cac-tac-vu-hoc-tap.docx",
@@ -160,7 +160,7 @@ export const projects: Project[] = [
       "Ghi nhật ký minh chứng: ảnh chụp màn hình thể hiện rõ tên tài khoản / phần đóng góp cá nhân.",
       "Viết báo cáo cá nhân 4-5 trang: mô tả tác vụ, phân tích hiệu quả công cụ, thách thức & cách giải quyết.",
     ],
-    tools: ["Trello", "Google Docs", "Google Drive", "Microsoft Teams"],
+    tools: ["Google Docs", "Google Meet", "NotebookLM", "TickTick", "Canva"],
     lmsUrl: "",
     submission: {
       fileName: "Bài tập 3 W4.docx",
@@ -194,7 +194,7 @@ export const projects: Project[] = [
       "Viết phân tích vai trò của AI: điểm mạnh & hạn chế, cách AI thay đổi quy trình sáng tạo, và các vấn đề đạo đức cần cân nhắc.",
       "Nộp báo cáo 4-5 trang kèm sản phẩm cuối, ảnh chụp quá trình dùng AI và các phiên bản trung gian.",
     ],
-    tools: ["ChatGPT", "DALL·E", "Canva AI", "Adobe Firefly"],
+    tools: ["Gemini", "Grok", "NotebookLM", "Canva AI"],
     lmsUrl: "",
     submission: {
       fileName: "Bài tập 5 - Phạm Thị Phương Anh",
@@ -228,7 +228,7 @@ export const projects: Project[] = [
       "Tạo một infographic minh hoạ 'Sử dụng AI có trách nhiệm trong học thuật'.",
       "Nộp báo cáo 4-5 trang gồm phân tích chính sách, quá trình dùng AI, phân tích đạo đức, bộ nguyên tắc cá nhân và infographic.",
     ],
-    tools: ["ChatGPT", "Canva (infographic)", "Trích dẫn học thuật"],
+    tools: ["Microsoft Copilot", "Canva", "Trích dẫn học thuật"],
     lmsUrl: "",
     submission: {
       fileName: "BÀI TẬP 4 W6.docx",
