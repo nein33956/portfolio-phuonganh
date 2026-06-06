@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ivory text-ink font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-brand-200 text-ink;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-brand-300;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-500;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-5xl px-5 sm:px-8;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-forest-800 via-brand-700 to-brand-500 bg-clip-text text-transparent;
+    font-style: italic;
+  }
+  .glass {
+    @apply border border-brand-100 bg-ivory/80 backdrop-blur-md;
+  }
+  /* nhãn nhỏ in hoa giãn chữ */
+  .kicker {
+    @apply text-[11px] font-semibold uppercase tracking-luxe text-brand-600;
+  }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-300/70 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-700;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3 text-xs font-semibold uppercase tracking-[0.16em] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-brand-300;
+  }
+  .btn-primary {
+    @apply btn bg-forest-800 text-ivory hover:bg-forest-900 hover:-translate-y-0.5;
+  }
+  .btn-outline {
+    @apply btn border border-forest-700/50 bg-transparent text-forest-800 hover:border-forest-700 hover:bg-forest-50;
+  }
+  /* thẻ thanh lịch: viền mảnh, bo nhẹ */
+  .card-surface {
+    @apply rounded-xl border border-brand-100 bg-white shadow-card;
+  }
+}
+
+/* Aurora rất nhẹ (gam vàng/kem) */
+.aurora {
+  position: absolute;
+  filter: blur(90px);
+  opacity: 0.3;
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+/* đường kẻ vàng mảnh */
+.rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #bb8f3e, transparent);
+}
