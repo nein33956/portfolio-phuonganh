@@ -7,10 +7,10 @@ import { projects, SITE } from "../data/projects";
 import { getIcon } from "../lib/icons";
 
 const stats = [
-  { big: "06", lbl: "Dự án thực hành" },
-  { big: "100%", lbl: "Bài đã nộp" },
-  { big: "12+", lbl: "Công cụ & AI" },
-  { big: "2026", lbl: "Năm hoàn thành" },
+  { big: "6/6", lbl: "Bài nộp đúng hạn" },
+  { big: "72h+", lbl: "Thời gian đầu tư" },
+  { big: "3", lbl: "AI chính đã dùng" },
+  { big: "1st", lbl: "Portfolio đầu tiên" },
 ];
 
 const goals = [
@@ -82,21 +82,26 @@ export default function Home() {
             <Link to="/tong-ket" className="btn-outline">Tổng kết hành trình</Link>
           </motion.div>
 
-          {/* Stats — hàng serif có kẻ */}
+          {/* Stats — dark band */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="mx-auto mt-16 grid max-w-3xl grid-cols-2 border-y border-brand-200 sm:grid-cols-4 sm:divide-x sm:divide-brand-100"
+            className="mx-auto mt-16 max-w-3xl overflow-hidden bg-brand-800"
           >
-            {stats.map((s) => (
-              <div key={s.lbl} className="px-4 py-7">
-                <div className="font-display text-4xl font-semibold text-brand-700">{s.big}</div>
-                <div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-ink-muted">
-                  {s.lbl}
+            <div className="grid grid-cols-2 divide-x divide-brand-700 sm:grid-cols-4 [&>*:nth-child(n+3)]:border-t [&>*:nth-child(n+3)]:border-brand-700 sm:[&>*:nth-child(n+3)]:border-t-0">
+              {stats.map((s) => (
+                <div key={s.lbl} className="flex flex-col items-center px-4 py-8">
+                  <div className="h-px w-8 bg-brand-500 mb-4" />
+                  <div className="font-display text-5xl font-bold italic text-ivory leading-none">
+                    {s.big}
+                  </div>
+                  <div className="mt-3 text-[9px] uppercase tracking-[0.22em] text-brand-300">
+                    {s.lbl}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>
